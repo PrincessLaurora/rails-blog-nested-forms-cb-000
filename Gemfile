@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails'
+
+gem "sqlite3", '~> 1.3.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,6 +43,5 @@ group :test, :development do
   gem "factory_bot"
   gem "simplecov"
   gem "database_cleaner"
-  gem "sqlite3"
   gem "pry"
 end
