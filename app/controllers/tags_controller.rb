@@ -6,9 +6,6 @@ class TagsController < ApplicationController
     @tags = Tag.all
   end
 
-  def new
-    @tag = Tag.new
-  end
   # GET /tags/1
   # GET /tags/1.json
   def show
